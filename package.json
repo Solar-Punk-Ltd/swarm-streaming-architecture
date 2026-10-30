@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Interactive explorer of live streaming over Swarm, version by version",
+  "license": "MIT",
   "scripts": {
     "test": "node --test",
     "build": "node tools/bundle.js",

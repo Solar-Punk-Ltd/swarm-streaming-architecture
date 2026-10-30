@@ -136,6 +136,10 @@ Swarm access grazes a card and two labels by the control host sit close
 together. The browser draws those labels apart. A new spot fails the tests,
 and a fixed one has to come off the list.
 
+## License
+
+MIT, see [LICENSE](LICENSE).
+
 ## Browser notes, learned the hard way
 
 `requestAnimationFrame` never fires in a hidden document, and an embedded
