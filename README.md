@@ -34,7 +34,9 @@ There are no dependencies. Not "few", none: no lockfile and no
 `node_modules`. Node 20 or later is all it needs.
 
 The built file carries all three versions and needs no server and no network,
-so any host that serves a static file can serve it.
+so any host that serves a static file can serve it. Every push to main runs
+the tests, builds that file and publishes it to GitHub Pages, at
+https://solar-punk-ltd.github.io/swarm-streaming-architecture/.
 
 ## The canvas
 
