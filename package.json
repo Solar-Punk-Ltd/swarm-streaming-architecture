@@ -1,0 +1,16 @@
+{
+  "name": "swarm-streaming-architecture",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive explorer of live streaming over Swarm, version by version",
+  "scripts": {
+    "test": "node --test",
+    "build": "node tools/bundle.js",
+    "dev": "node tools/serve.js",
+    "slides": "node tools/slides.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
